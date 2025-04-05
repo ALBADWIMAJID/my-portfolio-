@@ -457,7 +457,7 @@ section {
 }
 @media screen and (max-width: 768px) {
   .section__pic-container img {
-    width: 270px;
-    height: 270px;
+    width: 2OOpx;
+    height: 2OOpx;
   }
 }
