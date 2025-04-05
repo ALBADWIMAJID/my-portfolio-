@@ -440,3 +440,24 @@ footer {
 footer p {
   text-align: center;
 }
+section {
+  padding: 4rem 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+.section__pic-container img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  /* ✅ الظل الجديد */
+  border: 4px solid #fff;
+  /* دائرة بيضاء حول الصورة */
+}
+@media screen and (max-width: 768px) {
+  .section__pic-container img {
+    width: 270px;
+    height: 270px;
+  }
+}

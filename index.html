@@ -1,388 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">MAJID</div>
-      <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Majid's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">MAJID</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="assets/photo_2025-01-19_05-14-39.jpg" alt="Majid Photo" />
+    </div>
+    <div class="section__text">
+      
+      <h1 class="title">Majid</h1>
+      <p class="section__text__p2">Frontend Developer & Aspiring Data Analyst</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="assets/linkedin.png" alt="LinkedIn" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/your-linkedin-username'" />
+        <img src="assets/github.png" alt="GitHub" class="icon"
+          onclick="location.href='https://github.com/ALBADWIMAJID'" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="assets/photo_2025-01-19_06-07-40.jpg" alt="Profile Image" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>3+ years <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. in Systems Engineering<br />Currently Studying</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hello! I'm Majid, a passionate Frontend Developer with a love for creating intuitive and engaging user
+            experiences. I specialize in building modern, responsive websites using HTML, CSS, JavaScript, and
+            frameworks like React.
+            <br /><br />
+            Recently, I began expanding my skills into the field of data analysis. I completed an exploratory data
+            analysis project using Python and Jupyter Notebook, where I analyzed Airbnb data using Pandas and Seaborn.
+            <br /><br />
+            I am always eager to learn new technologies and collaborate on exciting challenges.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Data Analysis</h2>
+          <div class="article-container">
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Python (Pandas)</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Jupyter Notebook</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Seaborn/Matplotlib</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article><img src="assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Power BI</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/airbnb-project.png" alt="Airbnb Data Analysis Dashboard" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Airbnb Data Analysis</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ALBADWIMAJID/airbnb-data-analysis'">GitHub</button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://colab.research.google.com/'">Live Notebook</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+
+      <!-- Project: Barbershop Legend -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/image.png" alt="Barbershop Project Preview" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Barbershop Legend</h2>
+        <p style="font-size: 0.9rem; margin: 0.5rem 0;">
+          A modern and elegant barbershop website built with Django. Customers can book appointments, explore services, and view real images.
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/ALBADWIMAJID/barbershop'">
+            GitHub
+          </button>
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://barbershop-7ncw.onrender.com'">
+            Live Demo
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <h1 class="title">Projects</h1>
+  <p class="section__text__p1">Browse My Recent</p>
+
+  <div class="experience-details-container">
+    <div class="about-containers">
+
+      <!-- Figma Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/Image Apr 5, 2025, 06_58_58 AM.png" alt="Figma UI Design" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Figma UI Design - NFT Market</h2>
+        <p style="padding: 0 1rem;">
+          A sleek and creative NFT marketplace concept designed using Figma. It features modern UI elements,
+          animated sections, and promo design styles.
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1'">
+            View in Figma
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:albadwimajid755@gmail.com">albadwimajid755@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+       
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
         <ul class="nav-links">
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#experience">Experience</a></li>
-          <li><a href="index.html#projects">Projects</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">MAJID</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-       
-</head>
-<body>
-    <div class="section__pic-container">
-        <img src="assets/photo_2025-01-19_05-14-39.jpg" alt="my photo " />
-    </div>
+    <p>Copyright &#169; 2025 Majid. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Majid</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'" 
-          />
-          <img
-            src="assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/ALBADWIMAJID/'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img src="assets/photo_2025-01-19_06-07-40.jpg" alt="Profile Image" />
 
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>3+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Hello! I'm Majid, a passionate Frontend Developer with a love for creating intuitive and engaging user experiences. I
-              specialize in building modern, responsive websites using HTML, CSS, JavaScript, and frameworks like React. My goal is to
-              make the web a more accessible and beautiful place for everyone.
-              
-              I am constantly learning and evolving my skills to keep up with the ever-changing world of web development. Whether it's
-              crafting clean, semantic code or creating visually appealing interfaces, I strive to bring both form and function to
-              every project I work on.
-              
-              When I'm not coding, you can find me exploring new technologies, reading design blogs, or experimenting with new
-              frontend frameworks. I'm always eager to collaborate with others and take on exciting challenges in the world of web
-              development.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets\MacBook Pro 16_ - 1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ALBADWIMAJID/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:albadwimajid755@gmail.com">albadwimajid755@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#experience">Experience</a></li>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2025 Majid. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
 </html>
