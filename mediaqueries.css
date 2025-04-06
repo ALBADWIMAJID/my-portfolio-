@@ -129,4 +129,5 @@
   cursor: pointer;
   flex-direction: row-reverse;
       flex-wrap: wrap;
+      justify-content: space-between
 }
