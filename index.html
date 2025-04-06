@@ -22,6 +22,22 @@
       </ul>
     </div>
   </nav>
+<nav id="hamburger-nav">
+  <div class="logo">MAJID</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
   <section id="profile">
     <div class="section__pic-container">
@@ -159,79 +175,71 @@
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
       <div class="about-containers">
+  
+        <!-- Project: Airbnb -->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="assets/airbnb-project.png" alt="Airbnb Data Analysis Dashboard" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Airbnb Data Analysis</h2>
+          <p>A dashboard using Python & pandas for Airbnb listings — includes EDA, insights, and clean visuals.</p>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/ALBADWIMAJID/airbnb-data-analysis'">GitHub</button>
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://colab.research.google.com/'">Live Notebook</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://colab.research.google.com/'">Live
+              Notebook</button>
           </div>
         </div>
+  
+        <!-- Project: Barbershop -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/image.png" alt="Barbershop Project Preview" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Barbershop Legend</h2>
+          <p>Django website for barbershop booking, services, gallery, and responsive design — full CMS admin panel.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ALBADWIMAJID/barbershop'">GitHub</button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://barbershop-7ncw.onrender.com'">Live Demo</button>
+          </div>
+        </div>
+  
+        <!-- Project: Figma UI -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/Image Apr 5, 2025, 06_58_58 AM.png" alt="Figma UI Design" class="project-img figma-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Figma UI Design - NFT Market</h2>
+          <p>A conceptual modern NFT marketplace built in Figma with clean layout and animated components.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1'">View
+              in Figma</button>
+          </div>
+        </div>
+  
+        <!-- Project: Support AI Docs Parser -->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/support-parser-preview.png" alt="Support AI Docs Parser" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Support AI Docs Parser</h2>
+          <p>Smart Python tool to extract support articles (HTML, text, PDF) from websites and prepare datasets for RAG or
+            chatbot applications. Fully automated + PDF conversion + content filter.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/ALBADWIMAJID/support-ai-docs-parser'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://colab.research.google.com/'">Try
+              in Colab</button>
+          </div>
+        </div>
+  
       </div>
     </div>
   </section>
-  <<section id="projects">
-  <p class="section__text__p1">Browse My Recent</p>
-  <h1 class="title">Projects</h1>
-  <div class="experience-details-container">
-    <div class="about-containers">
 
-      <!-- Project: Barbershop Legend -->
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="assets/image.png" alt="Barbershop Project Preview" class="project-img" />
-        </div>
-        <h2 class="experience-sub-title project-title">Barbershop Legend</h2>
-        <p style="font-size: 0.9rem; margin: 0.5rem 0;">
-          A modern and elegant barbershop website built with Django. Customers can book appointments, explore services, and view real images.
-        </p>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/ALBADWIMAJID/barbershop'">
-            GitHub
-          </button>
-          <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://barbershop-7ncw.onrender.com'">
-            Live Demo
-          </button>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<section id="projects">
-  <h1 class="title">Projects</h1>
-  <p class="section__text__p1">Browse My Recent</p>
-
-  <div class="experience-details-container">
-    <div class="about-containers">
-
-      <!-- Figma Project -->
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="assets/Image Apr 5, 2025, 06_58_58 AM.png" alt="Figma UI Design" class="project-img" />
-        </div>
-        <h2 class="experience-sub-title project-title">Figma UI Design - NFT Market</h2>
-        <p style="padding: 0 1rem;">
-          A sleek and creative NFT marketplace concept designed using Figma. It features modern UI elements,
-          animated sections, and promo design styles.
-        </p>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1'">
-            View in Figma
-          </button>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 
   <section id="contact">

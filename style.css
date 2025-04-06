@@ -455,9 +455,3 @@ section {
   border: 4px solid #fff;
   /* دائرة بيضاء حول الصورة */
 }
-@media screen and (max-width: 768px) {
-  .section__pic-container img {
-    width: 2OOpx;
-    height: 2OOpx;
-  }
-}
