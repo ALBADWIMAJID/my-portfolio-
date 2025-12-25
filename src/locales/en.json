@@ -168,6 +168,58 @@
     "title": "Projects",
     "items": [
       {
+        "title": "Auto-Flashcards",
+        "desc": "Upload PDF lectures, videos, or text and let AI highlight key concepts and generate flashcards with Q&A, using spaced repetition.",
+        "image": "project-1.png",
+        "alt": "Auto-Flashcards preview",
+        "badges": [
+          "AI App",
+          "Flashcards"
+        ],
+        "tags": [
+          "JavaScript",
+          "Python",
+          "Docker",
+          "AI"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/Auto-Flashcards"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://auto-flashcards-sigma.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "Student Assignment Platform",
+        "desc": "Multi-page web UI for student assignment workflows, with login, student and admin dashboards, and request tracking.",
+        "image": "project-2.png",
+        "alt": "Student assignment platform UI preview",
+        "badges": [
+          "Education",
+          "Dashboards"
+        ],
+        "tags": [
+          "HTML",
+          "JavaScript",
+          "UI",
+          "Dashboards"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://wajebak.netlify.app/"
+          }
+        ]
+      },
+      {
         "title": "Airbnb Market Insights",
         "desc": "Explored pricing and availability patterns across listings and built a clean dashboard to surface market trends.",
         "image": "airbnb-project.png",

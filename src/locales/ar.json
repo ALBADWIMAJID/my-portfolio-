@@ -168,6 +168,58 @@
     "title": "المشاريع",
     "items": [
       {
+        "title": "Auto-Flashcards",
+        "desc": "ارفع محاضرات PDF أو فيديو أو نص، ويحدد الذكاء الاصطناعي المفاهيم الأساسية وينشئ بطاقات بأسئلة وأجوبة مع تكرار متباعد.",
+        "image": "project-1.png",
+        "alt": "معاينة Auto-Flashcards",
+        "badges": [
+          "تطبيق ذكاء اصطناعي",
+          "بطاقات مذاكرة"
+        ],
+        "tags": [
+          "JavaScript",
+          "Python",
+          "Docker",
+          "AI"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/Auto-Flashcards"
+          },
+          {
+            "label": "عرض حي",
+            "url": "https://auto-flashcards-sigma.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "منصة واجبات الطلاب",
+        "desc": "واجهة ويب متعددة الصفحات لمنصة واجبات الطلاب تشمل تسجيل الدخول ولوحات تحكم للطلاب والإدارة وتتبع الطلبات.",
+        "image": "project-2.png",
+        "alt": "معاينة منصة واجبات الطلاب",
+        "badges": [
+          "تعليم",
+          "لوحات تحكم"
+        ],
+        "tags": [
+          "HTML",
+          "JavaScript",
+          "UI",
+          "Dashboards"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
+          },
+          {
+            "label": "عرض حي",
+            "url": "https://wajebak.netlify.app/"
+          }
+        ]
+      },
+      {
         "title": "رؤى سوق Airbnb",
         "desc": "حللت أنماط التسعير والتوفر عبر القوائم وبنيت لوحة نظيفة لإبراز اتجاهات السوق.",
         "image": "airbnb-project.png",

@@ -168,6 +168,58 @@
     "title": "Проекты",
     "items": [
       {
+        "title": "Auto-Flashcards",
+        "desc": "Загружайте лекции PDF, видео или текст, AI выделяет ключевые понятия и создает карточки с вопросами и ответами, используя интервальные повторения.",
+        "image": "project-1.png",
+        "alt": "Превью Auto-Flashcards",
+        "badges": [
+          "AI-приложение",
+          "Флешкарты"
+        ],
+        "tags": [
+          "JavaScript",
+          "Python",
+          "Docker",
+          "AI"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/Auto-Flashcards"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://auto-flashcards-sigma.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "Платформа заданий студентов",
+        "desc": "Многостраничный веб-интерфейс для заданий студентов: логин, дашборды студентов и админов, трекинг заявок.",
+        "image": "project-2.png",
+        "alt": "Превью платформы заданий студентов",
+        "badges": [
+          "Образование",
+          "Дашборды"
+        ],
+        "tags": [
+          "HTML",
+          "JavaScript",
+          "UI",
+          "Dashboards"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://wajebak.netlify.app/"
+          }
+        ]
+      },
+      {
         "title": "Рыночные инсайты Airbnb",
         "desc": "Изучил паттерны цен и доступности и собрал дашборд с трендами рынка.",
         "image": "airbnb-project.png",
