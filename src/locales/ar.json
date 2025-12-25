@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "code": "ar",
+    "dir": "rtl",
+    "label": "AR",
+    "name": "العربية"
+  },
+  "ui": {
+    "skip": "تخطي إلى المحتوى",
+    "themeLight": "فاتح",
+    "themeDark": "داكن",
+    "themeToggle": "تبديل نمط الألوان",
+    "language": "اللغة",
+    "menuToggle": "تبديل القائمة"
+  },
+  "nav": {
+    "about": "نبذة",
+    "experience": "الخبرة",
+    "projects": "المشاريع",
+    "contact": "تواصل"
+  },
+  "hero": {
+    "eyebrow": "مرحبًا، أنا",
+    "name": "Majid Albadwi",
+    "title": "مطور تطبيقات LLM (RAG + Agents) وأتمتة/DevOps",
+    "subtitle": "أبني تطبيقات LLM تعتمد على RAG والوكلاء، مع أتمتة وخطوط نشر موثوقة.",
+    "imageAlt": "صورة شخصية لـ Majid Albadwi",
+    "badges": [
+      {
+        "label": "تطبيقات LLM"
+      },
+      {
+        "label": "أتمتة / DevOps"
+      },
+      {
+        "label": "متاح للعمل",
+        "variant": "outline"
+      }
+    ],
+    "cta": {
+      "resume": "تحميل السيرة الذاتية",
+      "contact": "معلومات التواصل"
+    },
+    "highlights": [
+      {
+        "value": "RAG + Agents",
+        "label": "تركيز تطبيقات LLM"
+      },
+      {
+        "value": "CI/CD + Docker",
+        "label": "أتمتة ونشر"
+      },
+      {
+        "value": "3+ سنوات",
+        "label": "خبرة واجهات أمامية"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "تعرف عليّ",
+    "title": "نبذة",
+    "card": {
+      "name": "Majid Albadwi",
+      "role": "مطور فل-ستاك ومستكشف للذكاء الاصطناعي",
+      "meta": [
+        "تطبيقات LLM + أتمتة",
+        "بكالوريوس هندسة النظم"
+      ],
+      "list": [
+        "مسارات RAG وسير عمل الوكلاء",
+        "أتمتة باستخدام Docker وGitHub Actions",
+        "واجهات موثوقة لمنتجات الذكاء الاصطناعي"
+      ],
+      "footer": "منفتح على مشاريع LLM والأتمتة والواجهات الأمامية."
+    },
+    "info": {
+      "experienceTitle": "الخبرة",
+      "experienceText": "3+ سنوات في بناء واجهات أمامية، مع التوسع إلى تطبيقات LLM والأتمتة.",
+      "educationTitle": "التعليم",
+      "educationText": "بكالوريوس في هندسة النظم (قيد الدراسة)"
+    },
+    "paragraphs": [
+      "أعمل كمطور فل-ستاك يستكشف تطبيقات LLM مع تركيز على RAG والوكلاء وقواعد المتجهات مثل ChromaDB وLanceDB.",
+      "أبني أتمتة وإطلاق باستخدام Docker وGitHub Actions وNGINX وKubernetes (Minikube)، مع أساس قوي في الواجهات الأمامية."
+    ]
+  },
+  "experience": {
+    "eyebrow": "استكشف",
+    "title": "الخبرة",
+    "llm": {
+      "title": "تطبيقات LLM / AI",
+      "skills": [
+        {
+          "name": "RAG",
+          "level": "متوسط"
+        },
+        {
+          "name": "OpenAI API (Chat Completions)",
+          "level": "متوسط"
+        },
+        {
+          "name": "LangChain (Agents & Tools)",
+          "level": "متوسط"
+        },
+        {
+          "name": "Vector DBs (ChromaDB / LanceDB)",
+          "level": "متوسط"
+        },
+        {
+          "name": "Embeddings & Semantic Search",
+          "level": "متوسط"
+        }
+      ]
+    },
+    "automation": {
+      "title": "أتمتة / DevOps",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "متوسط"
+        },
+        {
+          "name": "GitHub Actions (CI/CD)",
+          "level": "متوسط"
+        },
+        {
+          "name": "Kubernetes (Minikube)",
+          "level": "أساسي"
+        },
+        {
+          "name": "NGINX",
+          "level": "أساسي"
+        },
+        {
+          "name": "Linux / CLI",
+          "level": "متوسط"
+        }
+      ]
+    },
+    "frontend": {
+      "title": "تطوير الواجهات الأمامية",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "متقدم"
+        },
+        {
+          "name": "CSS",
+          "level": "متقدم"
+        },
+        {
+          "name": "JavaScript",
+          "level": "متوسط"
+        },
+        {
+          "name": "TypeScript",
+          "level": "متوسط"
+        },
+        {
+          "name": "React",
+          "level": "متوسط"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "تصفح أحدث",
+    "title": "المشاريع",
+    "items": [
+      {
+        "title": "رؤى سوق Airbnb",
+        "desc": "حللت أنماط التسعير والتوفر عبر القوائم وبنيت لوحة نظيفة لإبراز اتجاهات السوق.",
+        "image": "airbnb-project.png",
+        "alt": "لوحة رؤى سوق Airbnb",
+        "badges": [
+          "تحليلات",
+          "لوحة بيانات"
+        ],
+        "tags": [
+          "Python",
+          "Pandas",
+          "Seaborn",
+          "Jupyter"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
+          }
+        ]
+      },
+      {
+        "title": "Barbershop Legend",
+        "desc": "موقع حجز متكامل للخدمات والمعرض ولوحة إدارة، بواجهة متجاوبة ونشر على Render.",
+        "image": "image.png",
+        "alt": "معاينة موقع Barbershop Legend",
+        "badges": [
+          "تطبيق ويب",
+          "حجوزات"
+        ],
+        "tags": [
+          "Django",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/barbershop"
+          },
+          {
+            "label": "عرض حي",
+            "url": "https://barbershop-7ncw.onrender.com"
+          }
+        ]
+      },
+      {
+        "title": "تصميم واجهات Figma - سوق NFT",
+        "desc": "نظام واجهات ونموذج لسوق NFT مع مكونات قابلة لإعادة الاستخدام وشاشات أساسية.",
+        "image": "Image Apr 5, 2025, 06_58_58 AM.png",
+        "alt": "تصميم واجهات سوق NFT",
+        "badges": [
+          "تصميم واجهات",
+          "Figma"
+        ],
+        "tags": [
+          "Figma",
+          "UI Design",
+          "Prototyping",
+          "Design System"
+        ],
+        "links": [
+          {
+            "label": "عرض في Figma",
+            "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
+          }
+        ]
+      },
+      {
+        "title": "محلل مستندات دعم الذكاء الاصطناعي",
+        "desc": "خط أنابيب آلي يجمع مستندات الدعم وينظف محتوى HTML وPDF ويخرج بيانات جاهزة لتدفقات RAG.",
+        "image": "support-parser-preview.png",
+        "alt": "معاينة محلل مستندات دعم الذكاء الاصطناعي",
+        "badges": [
+          "أتمتة",
+          "أداة بيانات"
+        ],
+        "tags": [
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "تواصل",
+    "title": "التواصل",
+    "email": "البريد الإلكتروني",
+    "whatsapp": "واتساب",
+    "vk": "VK",
+    "instagram": "إنستغرام"
+  },
+  "footer": {
+    "copyright": "حقوق النشر \u00a9 2025 Majid. جميع الحقوق محفوظة."
+  }
+}

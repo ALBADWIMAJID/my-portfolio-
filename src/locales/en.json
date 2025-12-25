@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "code": "en",
+    "dir": "ltr",
+    "label": "EN",
+    "name": "English"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeToggle": "Toggle color theme",
+    "language": "Language",
+    "menuToggle": "Toggle menu"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Hello, I am",
+    "name": "Majid Albadwi",
+    "title": "LLM / AI Application Developer (RAG + Agents) & Automation/DevOps",
+    "subtitle": "I build LLM-powered apps with RAG and agents, plus automation pipelines that ship reliably.",
+    "imageAlt": "Portrait of Majid Albadwi",
+    "badges": [
+      {
+        "label": "LLM Apps"
+      },
+      {
+        "label": "Automation / DevOps"
+      },
+      {
+        "label": "Open to work",
+        "variant": "outline"
+      }
+    ],
+    "cta": {
+      "resume": "Download Resume",
+      "contact": "Contact Info"
+    },
+    "highlights": [
+      {
+        "value": "RAG + Agents",
+        "label": "LLM application focus"
+      },
+      {
+        "value": "CI/CD + Docker",
+        "label": "Automation and DevOps"
+      },
+      {
+        "value": "3+ Years",
+        "label": "Frontend foundations"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Get to know me",
+    "title": "About",
+    "card": {
+      "name": "Majid Albadwi",
+      "role": "Full-Stack Developer & AI Explorer",
+      "meta": [
+        "LLM apps + automation",
+        "B.Sc. Systems Engineering"
+      ],
+      "list": [
+        "RAG pipelines and agent workflows",
+        "Automation with Docker and GitHub Actions",
+        "Reliable UI for AI products"
+      ],
+      "footer": "Open to LLM, automation, and frontend projects."
+    },
+    "info": {
+      "experienceTitle": "Experience",
+      "experienceText": "3+ years building UI, now expanding into LLM apps and automation.",
+      "educationTitle": "Education",
+      "educationText": "B.Sc. in Systems Engineering (in progress)"
+    },
+    "paragraphs": [
+      "I am a full-stack developer exploring LLM applications, with a focus on RAG, agents, and vector databases like ChromaDB and LanceDB.",
+      "I build automation and deployment workflows with Docker, GitHub Actions CI/CD, NGINX, and Kubernetes (Minikube), while keeping strong frontend foundations."
+    ]
+  },
+  "experience": {
+    "eyebrow": "Explore my",
+    "title": "Experience",
+    "llm": {
+      "title": "LLM / AI Applications",
+      "skills": [
+        {
+          "name": "RAG",
+          "level": "Intermediate"
+        },
+        {
+          "name": "OpenAI API (Chat Completions)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "LangChain (Agents & Tools)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Vector DBs (ChromaDB / LanceDB)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Embeddings & Semantic Search",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "automation": {
+      "title": "Automation / DevOps",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Intermediate"
+        },
+        {
+          "name": "GitHub Actions (CI/CD)",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Kubernetes (Minikube)",
+          "level": "Basic"
+        },
+        {
+          "name": "NGINX",
+          "level": "Basic"
+        },
+        {
+          "name": "Linux / CLI",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "Experienced"
+        },
+        {
+          "name": "CSS",
+          "level": "Experienced"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "React",
+          "level": "Intermediate"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "Browse my recent",
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Airbnb Market Insights",
+        "desc": "Explored pricing and availability patterns across listings and built a clean dashboard to surface market trends.",
+        "image": "airbnb-project.png",
+        "alt": "Airbnb market insights dashboard",
+        "badges": [
+          "Market Insights",
+          "Dashboard"
+        ],
+        "tags": [
+          "Python",
+          "Pandas",
+          "Seaborn",
+          "Jupyter"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
+          }
+        ]
+      },
+      {
+        "title": "Barbershop Legend",
+        "desc": "End-to-end booking website with services, gallery, and admin CMS, deployed with a responsive UI on Render.",
+        "image": "image.png",
+        "alt": "Barbershop website preview",
+        "badges": [
+          "Web App",
+          "Booking"
+        ],
+        "tags": [
+          "Django",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/barbershop"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://barbershop-7ncw.onrender.com"
+          }
+        ]
+      },
+      {
+        "title": "Figma UI Design - NFT Market",
+        "desc": "UI system and prototype for an NFT marketplace, featuring reusable components and key screens.",
+        "image": "Image Apr 5, 2025, 06_58_58 AM.png",
+        "alt": "NFT marketplace UI design",
+        "badges": [
+          "UI Design",
+          "Figma"
+        ],
+        "tags": [
+          "Figma",
+          "UI Design",
+          "Prototyping",
+          "Design System"
+        ],
+        "links": [
+          {
+            "label": "View in Figma",
+            "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
+          }
+        ]
+      },
+      {
+        "title": "Support AI Docs Parser",
+        "desc": "Automated pipeline that collects support docs, cleans HTML and PDF content, and outputs datasets ready for RAG workflows.",
+        "image": "support-parser-preview.png",
+        "alt": "Support AI docs parser preview",
+        "badges": [
+          "Automation",
+          "Data Tool"
+        ],
+        "tags": [
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Contact",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "copyright": "Copyright \u00a9 2025 Majid. All Rights Reserved."
+  }
+}

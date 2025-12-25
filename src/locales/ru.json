@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "code": "ru",
+    "dir": "ltr",
+    "label": "RU",
+    "name": "Русский"
+  },
+  "ui": {
+    "skip": "Перейти к содержимому",
+    "themeLight": "Светлая",
+    "themeDark": "Темная",
+    "themeToggle": "Переключить тему",
+    "language": "Язык",
+    "menuToggle": "Открыть меню"
+  },
+  "nav": {
+    "about": "Обо мне",
+    "experience": "Опыт",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "hero": {
+    "eyebrow": "Привет, я",
+    "name": "Majid Albadwi",
+    "title": "Разработчик LLM/AI приложений (RAG + Agents) и Automation/DevOps",
+    "subtitle": "Создаю LLM-приложения с RAG и агентами и строю автоматизацию и DevOps-пайплайны для надежной доставки.",
+    "imageAlt": "Портрет Majid Albadwi",
+    "badges": [
+      {
+        "label": "LLM-приложения"
+      },
+      {
+        "label": "Автоматизация / DevOps"
+      },
+      {
+        "label": "Открыт к работе",
+        "variant": "outline"
+      }
+    ],
+    "cta": {
+      "resume": "Скачать резюме",
+      "contact": "Контакты"
+    },
+    "highlights": [
+      {
+        "value": "RAG + Agents",
+        "label": "Фокус на LLM"
+      },
+      {
+        "value": "CI/CD + Docker",
+        "label": "Автоматизация и DevOps"
+      },
+      {
+        "value": "3+ года",
+        "label": "Фронтенд база"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Познакомьтесь со мной",
+    "title": "Обо мне",
+    "card": {
+      "name": "Majid Albadwi",
+      "role": "Full-Stack разработчик и AI исследователь",
+      "meta": [
+        "LLM приложения + автоматизация",
+        "Бакалавр системной инженерии"
+      ],
+      "list": [
+        "RAG-пайплайны и агентные сценарии",
+        "Автоматизация с Docker и GitHub Actions",
+        "Надежный UI для AI-продуктов"
+      ],
+      "footer": "Открыт к проектам в LLM, автоматизации и фронтенде."
+    },
+    "info": {
+      "experienceTitle": "Опыт",
+      "experienceText": "3+ года в UI, сейчас развиваюсь в LLM-приложениях и автоматизации.",
+      "educationTitle": "Образование",
+      "educationText": "Бакалавр системной инженерии (в процессе)"
+    },
+    "paragraphs": [
+      "Full-stack разработчик, исследую LLM-приложения: RAG, агенты и векторные базы данных вроде ChromaDB и LanceDB.",
+      "Строю автоматизацию и деплой с Docker, GitHub Actions, NGINX и Kubernetes (Minikube), сохраняя сильную фронтенд-базу."
+    ]
+  },
+  "experience": {
+    "eyebrow": "Посмотреть",
+    "title": "Опыт",
+    "llm": {
+      "title": "LLM / AI приложения",
+      "skills": [
+        {
+          "name": "RAG",
+          "level": "Средний"
+        },
+        {
+          "name": "OpenAI API (Chat Completions)",
+          "level": "Средний"
+        },
+        {
+          "name": "LangChain (Agents & Tools)",
+          "level": "Средний"
+        },
+        {
+          "name": "Vector DBs (ChromaDB / LanceDB)",
+          "level": "Средний"
+        },
+        {
+          "name": "Embeddings & Semantic Search",
+          "level": "Средний"
+        }
+      ]
+    },
+    "automation": {
+      "title": "Автоматизация / DevOps",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Средний"
+        },
+        {
+          "name": "GitHub Actions (CI/CD)",
+          "level": "Средний"
+        },
+        {
+          "name": "Kubernetes (Minikube)",
+          "level": "Базовый"
+        },
+        {
+          "name": "NGINX",
+          "level": "Базовый"
+        },
+        {
+          "name": "Linux / CLI",
+          "level": "Средний"
+        }
+      ]
+    },
+    "frontend": {
+      "title": "Frontend разработка",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "Продвинутый"
+        },
+        {
+          "name": "CSS",
+          "level": "Продвинутый"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Средний"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Средний"
+        },
+        {
+          "name": "React",
+          "level": "Средний"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "Последние проекты",
+    "title": "Проекты",
+    "items": [
+      {
+        "title": "Рыночные инсайты Airbnb",
+        "desc": "Изучил паттерны цен и доступности и собрал дашборд с трендами рынка.",
+        "image": "airbnb-project.png",
+        "alt": "Дашборд рыночных инсайтов Airbnb",
+        "badges": [
+          "Аналитика",
+          "Дашборд"
+        ],
+        "tags": [
+          "Python",
+          "Pandas",
+          "Seaborn",
+          "Jupyter"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
+          }
+        ]
+      },
+      {
+        "title": "Barbershop Legend",
+        "desc": "Сайт бронирования с услугами, галереей и админ CMS, адаптивный UI, развернут на Render.",
+        "image": "image.png",
+        "alt": "Превью сайта Barbershop Legend",
+        "badges": [
+          "Веб-приложение",
+          "Бронирование"
+        ],
+        "tags": [
+          "Django",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/barbershop"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://barbershop-7ncw.onrender.com"
+          }
+        ]
+      },
+      {
+        "title": "Figma UI Design - NFT Market",
+        "desc": "UI система и прототип для NFT маркетплейса с переиспользуемыми компонентами и ключевыми экранами.",
+        "image": "Image Apr 5, 2025, 06_58_58 AM.png",
+        "alt": "UI дизайн NFT маркетплейса",
+        "badges": [
+          "UI дизайн",
+          "Figma"
+        ],
+        "tags": [
+          "Figma",
+          "UI Design",
+          "Prototyping",
+          "Design System"
+        ],
+        "links": [
+          {
+            "label": "Смотреть в Figma",
+            "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
+          }
+        ]
+      },
+      {
+        "title": "Support AI Docs Parser",
+        "desc": "Автоматизированный пайплайн собирает статьи поддержки, очищает HTML и PDF и готовит датасеты для RAG.",
+        "image": "support-parser-preview.png",
+        "alt": "Превью Support AI Docs Parser",
+        "badges": [
+          "Автоматизация",
+          "Инструмент данных"
+        ],
+        "tags": [
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Связаться",
+    "title": "Контакты",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "vk": "VK",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "copyright": "\u00a9 2025 Majid. Все права защищены."
+  }
+}

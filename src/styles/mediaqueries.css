@@ -12,12 +12,34 @@
     text-align: center;
   }
 
+  #profile::before,
+  #profile::after {
+    display: none;
+  }
+
+  .profile-media {
+    margin-bottom: 1.5rem;
+  }
+
   .section__text {
     text-align: center;
   }
 
   .section__text__p3 {
     margin: 0 auto;
+  }
+
+  .hero-badges {
+    justify-content: center;
+  }
+
+  .hero-highlights {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-items: center;
+  }
+
+  .highlight-card {
+    text-align: center;
   }
 
   #socials-container {
@@ -54,8 +76,12 @@
     padding: 0.85rem 1.25rem;
   }
 
-  .project-media {
-    height: 210px;
+  .nav-actions {
+    gap: 0.75rem;
+  }
+
+  .nav-controls {
+    gap: 0.5rem;
   }
 }
 
@@ -72,6 +98,11 @@
     gap: 2rem;
   }
 
+  .profile-media {
+    width: 210px;
+    height: 210px;
+  }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -81,7 +112,15 @@
   }
 
   .project-media {
-    height: 190px;
+    padding: 0.7rem;
+  }
+
+  .nav-actions {
+    gap: 0.6rem;
+  }
+
+  .nav-controls {
+    gap: 0.4rem;
   }
 
   .menu-links {
