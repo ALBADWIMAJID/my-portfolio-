@@ -20,20 +20,20 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Hello, I am",
+    "eyebrow": "Hello, I'm",
     "name": "Majid Albadwi",
-    "title": "LLM / AI Application Developer (RAG + Agents) & Automation/DevOps",
-    "subtitle": "I build LLM-powered apps with RAG and agents, plus automation pipelines that ship reliably.",
+    "title": "LLM Application Developer & Automation Engineer",
+    "subtitle": "I build production-ready RAG systems, agent workflows, and reliable delivery pipelines.",
     "imageAlt": "Portrait of Majid Albadwi",
     "badges": [
       {
-        "label": "LLM Apps"
+        "label": "RAG Systems"
       },
       {
-        "label": "Automation / DevOps"
+        "label": "Agent Workflows"
       },
       {
-        "label": "Open to work",
+        "label": "Open to Work",
         "variant": "outline"
       }
     ],
@@ -44,15 +44,15 @@
     "highlights": [
       {
         "value": "RAG + Agents",
-        "label": "LLM application focus"
+        "label": "Production-ready LLM workflows"
       },
       {
         "value": "CI/CD + Docker",
-        "label": "Automation and DevOps"
+        "label": "Reliable delivery pipelines"
       },
       {
         "value": "3+ Years",
-        "label": "Frontend foundations"
+        "label": "Frontend engineering"
       }
     ]
   },
@@ -61,27 +61,27 @@
     "title": "About",
     "card": {
       "name": "Majid Albadwi",
-      "role": "Full-Stack Developer & AI Explorer",
+      "role": "LLM Application Developer & Full-Stack Engineer",
       "meta": [
-        "LLM apps + automation",
-        "B.Sc. Systems Engineering"
+        "RAG systems + automation",
+        "B.Sc. Systems Engineering (in progress)"
       ],
       "list": [
-        "RAG pipelines and agent workflows",
+        "LLM apps with retrieval and tool use",
         "Automation with Docker and GitHub Actions",
-        "Reliable UI for AI products"
+        "Clean, accessible UI for AI products"
       ],
       "footer": "Open to LLM, automation, and frontend projects."
     },
     "info": {
       "experienceTitle": "Experience",
-      "experienceText": "3+ years building UI, now expanding into LLM apps and automation.",
+      "experienceText": "3+ years building UI, now shipping LLM apps and automation pipelines.",
       "educationTitle": "Education",
       "educationText": "B.Sc. in Systems Engineering (in progress)"
     },
     "paragraphs": [
-      "I am a full-stack developer exploring LLM applications, with a focus on RAG, agents, and vector databases like ChromaDB and LanceDB.",
-      "I build automation and deployment workflows with Docker, GitHub Actions CI/CD, NGINX, and Kubernetes (Minikube), while keeping strong frontend foundations."
+      "Full-stack developer focused on LLM applications, RAG, and agent workflows. I design systems that are reliable and easy to operate.",
+      "I build deployment and automation stacks with Docker, GitHub Actions, NGINX, and Kubernetes (Minikube), while keeping a strong frontend foundation."
     ]
   },
   "experience": {
@@ -169,7 +169,7 @@
     "items": [
       {
         "title": "Auto-Flashcards",
-        "desc": "Upload PDF lectures, videos, or text and let AI highlight key concepts and generate flashcards with Q&A, using spaced repetition.",
+        "desc": "Turns PDFs, videos, and notes into spaced-repetition flashcards with AI summaries and Q&A.",
         "image": "project-1.png",
         "alt": "Auto-Flashcards preview",
         "badges": [
@@ -195,7 +195,7 @@
       },
       {
         "title": "Student Assignment Platform",
-        "desc": "Multi-page web UI for student assignment workflows, with login, student and admin dashboards, and request tracking.",
+        "desc": "Multi-role dashboard for student assignment workflows with auth, tracking, and admin views.",
         "image": "project-2.png",
         "alt": "Student assignment platform UI preview",
         "badges": [
@@ -221,7 +221,7 @@
       },
       {
         "title": "Airbnb Market Insights",
-        "desc": "Explored pricing and availability patterns across listings and built a clean dashboard to surface market trends.",
+        "desc": "Exploratory analysis with a dashboard showing pricing and availability trends.",
         "image": "airbnb-project.png",
         "alt": "Airbnb market insights dashboard",
         "badges": [
@@ -243,7 +243,7 @@
       },
       {
         "title": "Barbershop Legend",
-        "desc": "End-to-end booking website with services, gallery, and admin CMS, deployed with a responsive UI on Render.",
+        "desc": "Booking website with services, gallery, and admin CMS, deployed with a responsive UI.",
         "image": "image.png",
         "alt": "Barbershop website preview",
         "badges": [
@@ -269,7 +269,7 @@
       },
       {
         "title": "Figma UI Design - NFT Market",
-        "desc": "UI system and prototype for an NFT marketplace, featuring reusable components and key screens.",
+        "desc": "UI system and clickable prototype for an NFT marketplace with reusable components.",
         "image": "Image Apr 5, 2025, 06_58_58 AM.png",
         "alt": "NFT marketplace UI design",
         "badges": [
@@ -291,7 +291,7 @@
       },
       {
         "title": "Support AI Docs Parser",
-        "desc": "Automated pipeline that collects support docs, cleans HTML and PDF content, and outputs datasets ready for RAG workflows.",
+        "desc": "Pipeline that collects support docs, cleans HTML/PDF, and outputs RAG-ready datasets.",
         "image": "support-parser-preview.png",
         "alt": "Support AI docs parser preview",
         "badges": [
@@ -322,6 +322,6 @@
     "instagram": "Instagram"
   },
   "footer": {
-    "copyright": "Copyright \u00a9 2025 Majid. All Rights Reserved."
+    "copyright": "Copyright © 2025 Majid. All Rights Reserved."
   }
 }
