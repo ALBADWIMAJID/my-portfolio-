@@ -3,7 +3,9 @@
     "code": "en",
     "dir": "ltr",
     "label": "EN",
-    "name": "English"
+    "name": "English",
+    "title": "Majid Albadwi | Backend Developer (FastAPI) & Data Analyst",
+    "description": "Backend developer and data analyst building FastAPI APIs, SQL data pipelines, and dashboards with MySQL/PostgreSQL and Pandas."
   },
   "ui": {
     "skip": "Skip to content",
@@ -22,37 +24,44 @@
   "hero": {
     "eyebrow": "Hello, I'm",
     "name": "Majid Albadwi",
-    "title": "LLM Application Developer & Automation Engineer",
-    "subtitle": "I build production-ready RAG systems, agent workflows, and reliable delivery pipelines.",
+    "title": "Backend Developer (FastAPI) & Data Analyst (Pandas/SQL)",
+    "subtitle": "I build APIs, data pipelines, and dashboards—mainly with MySQL/PostgreSQL, FastAPI, and Pandas.",
     "imageAlt": "Portrait of Majid Albadwi",
     "badges": [
       {
-        "label": "RAG Systems"
+        "label": "FastAPI"
       },
       {
-        "label": "Agent Workflows"
+        "label": "MySQL"
       },
       {
-        "label": "Open to Work",
-        "variant": "outline"
+        "label": "PostgreSQL"
+      },
+      {
+        "label": "Pandas"
+      },
+      {
+        "label": "Docker"
       }
     ],
+    "availability": "Open to Work",
     "cta": {
       "resume": "Download Resume",
+      "github": "View GitHub",
       "contact": "Contact Info"
     },
     "highlights": [
       {
-        "value": "RAG + Agents",
-        "label": "Production-ready LLM workflows"
+        "value": "FastAPI + SQL",
+        "label": "Backend APIs and data services"
       },
       {
-        "value": "CI/CD + Docker",
-        "label": "Reliable delivery pipelines"
+        "value": "MySQL + PostgreSQL",
+        "label": "Relational modeling and performance"
       },
       {
-        "value": "3+ Years",
-        "label": "Frontend engineering"
+        "value": "Pandas + Dashboards",
+        "label": "Data analysis and reporting"
       }
     ]
   },
@@ -61,32 +70,82 @@
     "title": "About",
     "card": {
       "name": "Majid Albadwi",
-      "role": "LLM Application Developer & Full-Stack Engineer",
+      "role": "Backend Developer (FastAPI) & Data Analyst",
       "meta": [
-        "RAG systems + automation",
+        "MySQL + PostgreSQL",
         "B.Sc. Systems Engineering (in progress)"
       ],
       "list": [
-        "LLM apps with retrieval and tool use",
-        "Automation with Docker and GitHub Actions",
-        "Clean, accessible UI for AI products"
+        "FastAPI services and REST APIs",
+        "SQL modeling and analytics with Pandas",
+        "Dockerized deployments with CI/CD"
       ],
-      "footer": "Open to LLM, automation, and frontend projects."
+      "footer": "Open to backend, data, and applied AI projects."
     },
     "info": {
       "experienceTitle": "Experience",
-      "experienceText": "3+ years building UI, now shipping LLM apps and automation pipelines.",
+      "experienceText": "3+ years shipping web products; now focused on backend APIs and data pipelines.",
       "educationTitle": "Education",
       "educationText": "B.Sc. in Systems Engineering (in progress)"
     },
     "paragraphs": [
-      "Full-stack developer focused on LLM applications, RAG, and agent workflows. I design systems that are reliable and easy to operate.",
-      "I build deployment and automation stacks with Docker, GitHub Actions, NGINX, and Kubernetes (Minikube), while keeping a strong frontend foundation."
+      "Backend developer and data analyst focused on FastAPI services, SQL data modeling, and analytics dashboards that are reliable and easy to operate.",
+      "I also build LLM/RAG components when they support product goals, with a strong foundation in frontend and DevOps."
     ]
   },
   "experience": {
     "eyebrow": "Explore my",
     "title": "Experience",
+    "backend": {
+      "title": "Backend + Databases",
+      "skills": [
+        {
+          "name": "FastAPI",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Python",
+          "level": "Intermediate"
+        },
+        {
+          "name": "MySQL",
+          "level": "Intermediate"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Intermediate"
+        },
+        {
+          "name": "SQL Modeling & Querying",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "data": {
+      "title": "Data Analysis",
+      "skills": [
+        {
+          "name": "Pandas",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Jupyter / Notebooks",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Data Cleaning",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Exploratory Analysis",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Visualization (Seaborn/Matplotlib)",
+          "level": "Intermediate"
+        }
+      ]
+    },
     "llm": {
       "title": "LLM / AI Applications",
       "skills": [
@@ -169,7 +228,7 @@
     "items": [
       {
         "title": "Auto-Flashcards",
-        "desc": "Turns PDFs, videos, and notes into spaced-repetition flashcards with AI summaries and Q&A.",
+        "desc": "Transforms PDFs, videos, and notes into spaced-repetition flashcards with AI summaries and Q&A.",
         "image": "project-1.png",
         "alt": "Auto-Flashcards preview",
         "badges": [
@@ -181,6 +240,20 @@
           "Python",
           "Docker",
           "AI"
+        ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "Content ingestion and card generation flow from PDFs, videos, and notes."
+          },
+          {
+            "label": "Stack",
+            "text": "Python, JavaScript, Docker, LLM APIs."
+          },
+          {
+            "label": "Result",
+            "text": "End-to-end flashcard creation with spaced-repetition output."
+          }
         ],
         "links": [
           {
@@ -194,28 +267,38 @@
         ]
       },
       {
-        "title": "Student Assignment Platform",
-        "desc": "Multi-role dashboard for student assignment workflows with auth, tracking, and admin views.",
-        "image": "project-2.png",
-        "alt": "Student assignment platform UI preview",
+        "title": "Support AI Docs Parser",
+        "desc": "Pipeline that collects support docs, cleans HTML/PDF, and outputs structured datasets for search and RAG.",
+        "image": "support-parser-preview.png",
+        "alt": "Support AI docs parser preview",
         "badges": [
-          "Education",
-          "Dashboards"
+          "Automation",
+          "Data Tool"
         ],
         "tags": [
-          "HTML",
-          "JavaScript",
-          "UI",
-          "Dashboards"
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "Crawler + parser that normalizes HTML/PDF support docs."
+          },
+          {
+            "label": "Stack",
+            "text": "Python, Web Scraping, PDF/HTML parsing."
+          },
+          {
+            "label": "Result",
+            "text": "RAG-ready datasets for search and support tooling."
+          }
         ],
         "links": [
           {
             "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
-          },
-          {
-            "label": "Live Demo",
-            "url": "https://wajebak.netlify.app/"
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
           }
         ]
       },
@@ -234,10 +317,64 @@
           "Seaborn",
           "Jupyter"
         ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "EDA notebook and dashboard for pricing and availability."
+          },
+          {
+            "label": "Stack",
+            "text": "Python, Pandas, Seaborn, Jupyter."
+          },
+          {
+            "label": "Result",
+            "text": "Surfaced trends by neighborhood and season."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
             "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
+          }
+        ]
+      },
+      {
+        "title": "Student Assignment Platform",
+        "desc": "Multi-role dashboard for student assignment workflows with auth, tracking, and admin views.",
+        "image": "project-2.png",
+        "alt": "Student assignment platform UI preview",
+        "badges": [
+          "Education",
+          "Dashboards"
+        ],
+        "tags": [
+          "HTML",
+          "JavaScript",
+          "UI",
+          "Dashboards"
+        ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "Role-based assignment tracking UI with admin views."
+          },
+          {
+            "label": "Stack",
+            "text": "HTML, JavaScript, UI dashboards."
+          },
+          {
+            "label": "Result",
+            "text": "Centralized submissions and status visibility."
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://wajebak.netlify.app/"
           }
         ]
       },
@@ -255,6 +392,20 @@
           "HTML",
           "CSS",
           "JavaScript"
+        ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "Service booking site with gallery and admin editing."
+          },
+          {
+            "label": "Stack",
+            "text": "Django, HTML, CSS, JavaScript."
+          },
+          {
+            "label": "Result",
+            "text": "Online booking flow with a responsive layout."
+          }
         ],
         "links": [
           {
@@ -282,32 +433,24 @@
           "Prototyping",
           "Design System"
         ],
+        "highlights": [
+          {
+            "label": "What I built",
+            "text": "Design system and clickable prototype for marketplace flows."
+          },
+          {
+            "label": "Stack",
+            "text": "Figma, UI Design, Prototyping."
+          },
+          {
+            "label": "Result",
+            "text": "Reusable components and clear interaction patterns."
+          }
+        ],
         "links": [
           {
             "label": "View in Figma",
             "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
-          }
-        ]
-      },
-      {
-        "title": "Support AI Docs Parser",
-        "desc": "Pipeline that collects support docs, cleans HTML/PDF, and outputs RAG-ready datasets.",
-        "image": "support-parser-preview.png",
-        "alt": "Support AI docs parser preview",
-        "badges": [
-          "Automation",
-          "Data Tool"
-        ],
-        "tags": [
-          "Python",
-          "Web Scraping",
-          "PDF",
-          "Data Prep"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
           }
         ]
       }

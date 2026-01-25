@@ -54,7 +54,13 @@ export default function App() {
   const iconClass = menuOpen ? "hamburger-icon open" : "hamburger-icon";
   const themeClass = theme === "dark" ? "theme-toggle theme-toggle--dark" : "theme-toggle";
   const themeLabel = theme === "dark" ? t.ui.themeDark : t.ui.themeLight;
-  const experienceGroups = [t.experience.llm, t.experience.automation, t.experience.frontend];
+  const experienceGroups = [
+    t.experience.backend,
+    t.experience.data,
+    t.experience.llm,
+    t.experience.automation,
+    t.experience.frontend
+  ].filter(Boolean);
 
   useEffect(() => {
     const handleKey = (event) => {
@@ -75,6 +81,59 @@ export default function App() {
     document.documentElement.lang = t.meta.code;
     document.documentElement.dir = t.meta.dir;
   }, [t.meta.code, t.meta.dir]);
+
+  useEffect(() => {
+    if (typeof document === "undefined") {
+      return;
+    }
+
+    const metaTitle = t.meta?.title;
+    const metaDescription = t.meta?.description;
+
+    if (metaTitle) {
+      document.title = metaTitle;
+    }
+
+    const metaTags = [
+      ["meta[name='description']", metaDescription],
+      ["meta[property='og:title']", metaTitle],
+      ["meta[property='og:description']", metaDescription],
+      ["meta[name='twitter:title']", metaTitle],
+      ["meta[name='twitter:description']", metaDescription]
+    ];
+
+    metaTags.forEach(([selector, value]) => {
+      if (!value) {
+        return;
+      }
+      const tag = document.querySelector(selector);
+      if (tag) {
+        tag.setAttribute("content", value);
+      }
+    });
+
+    const siteUrl =
+      typeof window !== "undefined" ? `${window.location.origin}${base}` : "https://albadwimajid.github.io/my-portfolio-/";
+    const ogImageUrl =
+      typeof window !== "undefined"
+        ? `${window.location.origin}${asset("og-card.png")}`
+        : "https://albadwimajid.github.io/my-portfolio-/assets/og-card.png";
+
+    const ogUrlTag = document.querySelector("meta[property='og:url']");
+    if (ogUrlTag) {
+      ogUrlTag.setAttribute("content", siteUrl);
+    }
+
+    const ogImageTag = document.querySelector("meta[property='og:image']");
+    if (ogImageTag) {
+      ogImageTag.setAttribute("content", ogImageUrl);
+    }
+
+    const twitterImageTag = document.querySelector("meta[name='twitter:image']");
+    if (twitterImageTag) {
+      twitterImageTag.setAttribute("content", ogImageUrl);
+    }
+  }, [base, t.meta?.description, t.meta?.title]);
 
   const handleMenuToggle = () => {
     setMenuOpen((open) => !open);
@@ -239,84 +298,95 @@ export default function App() {
 
       <main id="main">
         <section id="profile">
-          <div className="section__pic-container profile-media">
-            <img
-              src={asset("photo_2025-01-19_05-14-39.jpg")}
-              alt={t.hero.imageAlt}
-              width="320"
-              height="320"
-              decoding="async"
-            />
-          </div>
-          <div className="section__text">
-            <p className="section__text__p1">{t.hero.eyebrow}</p>
-            <div className="hero-badges">
-              {t.hero.badges.map((badge) => (
-                <span
-                  key={badge.label}
-                  className={badge.variant === "outline" ? "pill pill--outline" : "pill"}
+          <div className="profile-inner">
+            <div className="section__pic-container profile-media">
+              <img
+                src={asset("photo_2025-01-19_05-14-39.jpg")}
+                alt={t.hero.imageAlt}
+                width="320"
+                height="320"
+                decoding="async"
+              />
+            </div>
+            <div className="section__text">
+              <p className="section__text__p1">{t.hero.eyebrow}</p>
+              <div className="hero-badges">
+                {t.hero.badges.map((badge) => (
+                  <span
+                    key={badge.label}
+                    className={badge.variant === "outline" ? "pill pill--outline" : "pill"}
+                  >
+                    {badge.label}
+                  </span>
+                ))}
+              </div>
+              {t.hero.availability ? <p className="hero-availability">{t.hero.availability}</p> : null}
+              <h1 className="title">{t.hero.name}</h1>
+              <p className="section__text__p2">{t.hero.title}</p>
+              <p className="section__text__p3">{t.hero.subtitle}</p>
+              <div className="btn-container">
+                <a
+                  className="btn btn-color-2"
+                  href={asset("majid-albadwi-resume.pdf")}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {badge.label}
-                </span>
-              ))}
-            </div>
-            <h1 className="title">{t.hero.name}</h1>
-            <p className="section__text__p2">{t.hero.title}</p>
-            <p className="section__text__p3">{t.hero.subtitle}</p>
-            <div className="btn-container">
-              <a
-                className="btn btn-color-2"
-                href={asset("majid-albadwi-resume.pdf")}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t.hero.cta.resume}
-              </a>
-              <a className="btn btn-color-1" href="#contact">
-                {t.hero.cta.contact}
-              </a>
-            </div>
-            <div className="hero-highlights">
-              {t.hero.highlights.map((item) => (
-                <div className="highlight-card" key={item.value}>
-                  <p className="highlight-value">{item.value}</p>
-                  <p className="highlight-label">{item.label}</p>
-                </div>
-              ))}
-            </div>
-            <div id="socials-container">
-              <a
-                href="https://www.linkedin.com/in/majid-albadwi"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-              >
-                <img
-                  src={asset("linkedin.png")}
-                  alt=""
-                  className="icon"
-                  width="32"
-                  height="32"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </a>
-              <a
-                href="https://github.com/ALBADWIMAJID"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-              >
-                <img
-                  src={asset("github.png")}
-                  alt=""
-                  className="icon"
-                  width="32"
-                  height="32"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </a>
+                  {t.hero.cta.resume}
+                </a>
+                <a
+                  className="btn btn-color-2"
+                  href="https://github.com/ALBADWIMAJID"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t.hero.cta.github}
+                </a>
+                <a className="btn btn-color-1" href="#contact">
+                  {t.hero.cta.contact}
+                </a>
+              </div>
+              <div className="hero-highlights">
+                {t.hero.highlights.map((item) => (
+                  <div className="highlight-card" key={item.value}>
+                    <p className="highlight-value">{item.value}</p>
+                    <p className="highlight-label">{item.label}</p>
+                  </div>
+                ))}
+              </div>
+              <div id="socials-container">
+                <a
+                  href="https://www.linkedin.com/in/majid-albadwi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <img
+                    src={asset("linkedin.png")}
+                    alt=""
+                    className="icon"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+                <a
+                  href="https://github.com/ALBADWIMAJID"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <img
+                    src={asset("github.png")}
+                    alt=""
+                    className="icon"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -450,6 +520,16 @@ export default function App() {
                   <div className="project-body">
                     <h3 className="project-title">{project.title}</h3>
                     <p className="project-desc">{project.desc}</p>
+                    {project.highlights?.length ? (
+                      <ul className="project-highlights">
+                        {project.highlights.map((item) => (
+                          <li key={item.label}>
+                            <span className="project-highlight-label">{item.label}</span>
+                            <span className="project-highlight-text">{item.text}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                     <div className="project-tags">
                       {project.tags.map((tag) => (
                         <span key={tag}>{tag}</span>

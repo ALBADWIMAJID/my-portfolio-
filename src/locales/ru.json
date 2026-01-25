@@ -3,7 +3,9 @@
     "code": "ru",
     "dir": "ltr",
     "label": "RU",
-    "name": "Русский"
+    "name": "Русский",
+    "title": "Majid Albadwi | Backend Developer (FastAPI) & Data Analyst",
+    "description": "Backend-разработчик и аналитик данных: FastAPI API, SQL-пайплайны и дашборды на MySQL/PostgreSQL и Pandas."
   },
   "ui": {
     "skip": "Перейти к содержимому",
@@ -22,37 +24,44 @@
   "hero": {
     "eyebrow": "Привет, я",
     "name": "Majid Albadwi",
-    "title": "Разработчик LLM-приложений и инженер автоматизации",
-    "subtitle": "Создаю продакшен-готовые RAG-системы, агентные workflow и надежные пайплайны доставки.",
+    "title": "Backend-разработчик (FastAPI) и аналитик данных (Pandas/SQL)",
+    "subtitle": "Создаю API, дата-пайплайны и дашборды — в основном с MySQL/PostgreSQL, FastAPI и Pandas.",
     "imageAlt": "Портрет Majid Albadwi",
     "badges": [
       {
-        "label": "RAG-системы"
+        "label": "FastAPI"
       },
       {
-        "label": "Агентные workflow"
+        "label": "MySQL"
       },
       {
-        "label": "Открыт к работе",
-        "variant": "outline"
+        "label": "PostgreSQL"
+      },
+      {
+        "label": "Pandas"
+      },
+      {
+        "label": "Docker"
       }
     ],
+    "availability": "Открыт к работе",
     "cta": {
       "resume": "Скачать резюме",
+      "github": "GitHub",
       "contact": "Контакты"
     },
     "highlights": [
       {
-        "value": "RAG + Agents",
-        "label": "LLM-workflow для продакшена"
+        "value": "FastAPI + SQL",
+        "label": "Backend API и сервисы данных"
       },
       {
-        "value": "CI/CD + Docker",
-        "label": "Надежные пайплайны доставки"
+        "value": "MySQL + PostgreSQL",
+        "label": "Реляционная модель и оптимизация"
       },
       {
-        "value": "3+ года",
-        "label": "Фронтенд-инжиниринг"
+        "value": "Pandas + Dashboards",
+        "label": "Аналитика данных и отчеты"
       }
     ]
   },
@@ -61,32 +70,82 @@
     "title": "Обо мне",
     "card": {
       "name": "Majid Albadwi",
-      "role": "LLM-разработчик и Full-Stack инженер",
+      "role": "Backend-разработчик (FastAPI) и аналитик данных",
       "meta": [
-        "RAG-системы + автоматизация",
+        "MySQL + PostgreSQL",
         "Бакалавр системной инженерии (в процессе)"
       ],
       "list": [
-        "LLM-приложения с retrieval и инструментами",
-        "Автоматизация на Docker и GitHub Actions",
-        "Чистый и доступный UI для AI-продуктов"
+        "Сервисы FastAPI и REST API",
+        "SQL-моделирование и аналитика с Pandas",
+        "Docker-деплой и CI/CD"
       ],
-      "footer": "Открыт к проектам в LLM, автоматизации и фронтенде."
+      "footer": "Открыт к проектам в backend, данных и прикладном AI."
     },
     "info": {
       "experienceTitle": "Опыт",
-      "experienceText": "3+ года в UI-разработке, сейчас делаю LLM-приложения и пайплайны автоматизации.",
+      "experienceText": "3+ года в веб-разработке; сейчас фокус на backend API и data-пайплайнах.",
       "educationTitle": "Образование",
       "educationText": "Бакалавр системной инженерии (в процессе)"
     },
     "paragraphs": [
-      "Full-stack разработчик, фокус на LLM-приложениях, RAG и агентных workflow. Делаю надежные и простые в эксплуатации решения.",
-      "Строю деплой и автоматизацию с Docker, GitHub Actions, NGINX и Kubernetes (Minikube), сохраняя сильную фронтенд-базу."
+      "Backend-разработчик и аналитик данных, фокус на сервисах FastAPI, SQL-моделировании и аналитических дашбордах.",
+      "Также делаю LLM/RAG-компоненты, когда это поддерживает цели продукта, с сильной базой во фронтенде и DevOps."
     ]
   },
   "experience": {
     "eyebrow": "Посмотреть",
     "title": "Опыт",
+    "backend": {
+      "title": "Backend + базы данных",
+      "skills": [
+        {
+          "name": "FastAPI",
+          "level": "Средний"
+        },
+        {
+          "name": "Python",
+          "level": "Средний"
+        },
+        {
+          "name": "MySQL",
+          "level": "Средний"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Средний"
+        },
+        {
+          "name": "SQL (моделирование и запросы)",
+          "level": "Средний"
+        }
+      ]
+    },
+    "data": {
+      "title": "Аналитика данных",
+      "skills": [
+        {
+          "name": "Pandas",
+          "level": "Средний"
+        },
+        {
+          "name": "Jupyter / Notebooks",
+          "level": "Средний"
+        },
+        {
+          "name": "Очистка данных",
+          "level": "Средний"
+        },
+        {
+          "name": "Исследовательский анализ",
+          "level": "Средний"
+        },
+        {
+          "name": "Визуализация (Seaborn/Matplotlib)",
+          "level": "Средний"
+        }
+      ]
+    },
     "llm": {
       "title": "LLM / AI приложения",
       "skills": [
@@ -182,6 +241,20 @@
           "Docker",
           "AI"
         ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "Пайплайн загрузки контента и генерации карточек из PDF, видео и заметок."
+          },
+          {
+            "label": "Стек",
+            "text": "Python, JavaScript, Docker, LLM API."
+          },
+          {
+            "label": "Результат",
+            "text": "Готовые колоды для интервальных повторений."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
@@ -194,28 +267,38 @@
         ]
       },
       {
-        "title": "Платформа заданий студентов",
-        "desc": "Дашборд для разных ролей с логином, трекингом и админ-просмотром.",
-        "image": "project-2.png",
-        "alt": "Превью платформы заданий студентов",
+        "title": "Support AI Docs Parser",
+        "desc": "Пайплайн, который собирает support-доки, чистит HTML/PDF и готовит структурированные датасеты для поиска и RAG.",
+        "image": "support-parser-preview.png",
+        "alt": "Превью Support AI Docs Parser",
         "badges": [
-          "Образование",
-          "Дашборды"
+          "Автоматизация",
+          "Инструмент данных"
         ],
         "tags": [
-          "HTML",
-          "JavaScript",
-          "UI",
-          "Dashboards"
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "Сбор и нормализация support-доков из HTML/PDF."
+          },
+          {
+            "label": "Стек",
+            "text": "Python, Web Scraping, PDF/HTML parsing."
+          },
+          {
+            "label": "Результат",
+            "text": "Датасеты, готовые для поиска и RAG."
+          }
         ],
         "links": [
           {
             "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
-          },
-          {
-            "label": "Live Demo",
-            "url": "https://wajebak.netlify.app/"
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
           }
         ]
       },
@@ -234,10 +317,64 @@
           "Seaborn",
           "Jupyter"
         ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "EDA и дашборд по ценам и доступности."
+          },
+          {
+            "label": "Стек",
+            "text": "Python, Pandas, Seaborn, Jupyter."
+          },
+          {
+            "label": "Результат",
+            "text": "Выявлены сезонные тренды и различия по районам."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
             "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
+          }
+        ]
+      },
+      {
+        "title": "Платформа заданий студентов",
+        "desc": "Дашборд для разных ролей с логином, трекингом и админ-просмотром.",
+        "image": "project-2.png",
+        "alt": "Превью платформы заданий студентов",
+        "badges": [
+          "Образование",
+          "Дашборды"
+        ],
+        "tags": [
+          "HTML",
+          "JavaScript",
+          "UI",
+          "Dashboards"
+        ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "Ролевая панель задач с трекингом и админ-разделом."
+          },
+          {
+            "label": "Стек",
+            "text": "HTML, JavaScript, UI dashboards."
+          },
+          {
+            "label": "Результат",
+            "text": "Единый обзор статусов и дедлайнов."
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/student-assignment-platform"
+          },
+          {
+            "label": "Live Demo",
+            "url": "https://wajebak.netlify.app/"
           }
         ]
       },
@@ -256,6 +393,20 @@
           "CSS",
           "JavaScript"
         ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "Сайт бронирования с услугами, галереей и админкой."
+          },
+          {
+            "label": "Стек",
+            "text": "Django, HTML, CSS, JavaScript."
+          },
+          {
+            "label": "Результат",
+            "text": "Онлайн-запись с адаптивной версткой."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
@@ -269,7 +420,7 @@
       },
       {
         "title": "Figma UI Design - NFT Market",
-        "desc": "UI-система и кликабельный прототип NFT-маркетплейса с переиспользуемыми компонентами.",
+        "desc": "UI-система и кликабельный прототип для NFT-маркетплейса с переиспользуемыми компонентами.",
         "image": "Image Apr 5, 2025, 06_58_58 AM.png",
         "alt": "UI дизайн NFT маркетплейса",
         "badges": [
@@ -282,32 +433,24 @@
           "Prototyping",
           "Design System"
         ],
+        "highlights": [
+          {
+            "label": "Что сделал",
+            "text": "Дизайн-система и кликабельный прототип."
+          },
+          {
+            "label": "Стек",
+            "text": "Figma, UI Design, Prototyping."
+          },
+          {
+            "label": "Результат",
+            "text": "Переиспользуемые компоненты и сценарии."
+          }
+        ],
         "links": [
           {
             "label": "Смотреть в Figma",
             "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
-          }
-        ]
-      },
-      {
-        "title": "Support AI Docs Parser",
-        "desc": "Пайплайн, который собирает support-доки, чистит HTML/PDF и готовит датасеты для RAG.",
-        "image": "support-parser-preview.png",
-        "alt": "Превью Support AI Docs Parser",
-        "badges": [
-          "Автоматизация",
-          "Инструмент данных"
-        ],
-        "tags": [
-          "Python",
-          "Web Scraping",
-          "PDF",
-          "Data Prep"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
           }
         ]
       }

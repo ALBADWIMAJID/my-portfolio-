@@ -3,7 +3,9 @@
     "code": "ar",
     "dir": "rtl",
     "label": "AR",
-    "name": "العربية"
+    "name": "العربية",
+    "title": "Majid Albadwi | مطوّر Backend (FastAPI) ومحلل بيانات",
+    "description": "مطوّر باك إند ومحلل بيانات يبني واجهات برمجة التطبيقات وخطوط بيانات SQL ولوحات معلومات باستخدام MySQL/PostgreSQL وFastAPI وPandas."
   },
   "ui": {
     "skip": "تخطي إلى المحتوى",
@@ -20,73 +22,130 @@
     "contact": "تواصل"
   },
   "hero": {
-    "eyebrow": "مرحبًا، أنا",
+    "eyebrow": "مرحبا، أنا",
     "name": "Majid Albadwi",
-    "title": "مطور تطبيقات LLM ومهندس أتمتة",
-    "subtitle": "أبني أنظمة RAG وسير عمل الوكلاء وخطوط نشر موثوقة.",
+    "title": "مطوّر باك إند (FastAPI) ومحلل بيانات (Pandas/SQL)",
+    "subtitle": "أبني واجهات برمجة تطبيقات وخطوط بيانات ولوحات معلومات—غالبًا باستخدام MySQL/PostgreSQL وFastAPI وPandas.",
     "imageAlt": "صورة شخصية لـ Majid Albadwi",
     "badges": [
       {
-        "label": "أنظمة RAG"
+        "label": "FastAPI"
       },
       {
-        "label": "سير عمل الوكلاء"
+        "label": "MySQL"
       },
       {
-        "label": "متاح للعمل",
-        "variant": "outline"
+        "label": "PostgreSQL"
+      },
+      {
+        "label": "Pandas"
+      },
+      {
+        "label": "Docker"
       }
     ],
+    "availability": "متاح للعمل",
     "cta": {
       "resume": "تحميل السيرة الذاتية",
+      "github": "عرض GitHub",
       "contact": "معلومات التواصل"
     },
     "highlights": [
       {
-        "value": "RAG + Agents",
-        "label": "تطبيقات LLM جاهزة للإنتاج"
+        "value": "FastAPI + SQL",
+        "label": "واجهات خلفية وخدمات بيانات"
       },
       {
-        "value": "CI/CD + Docker",
-        "label": "خطوط نشر موثوقة"
+        "value": "MySQL + PostgreSQL",
+        "label": "نمذجة علائقية وأداء"
       },
       {
-        "value": "3+ سنوات",
-        "label": "هندسة الواجهات الأمامية"
+        "value": "Pandas + Dashboards",
+        "label": "تحليل بيانات وتقارير"
       }
     ]
   },
   "about": {
-    "eyebrow": "تعرف عليّ",
+    "eyebrow": "تعرّف عليّ",
     "title": "نبذة",
     "card": {
       "name": "Majid Albadwi",
-      "role": "مطور تطبيقات LLM ومهندس Full-Stack",
+      "role": "مطوّر باك إند (FastAPI) ومحلل بيانات",
       "meta": [
-        "أنظمة RAG + الأتمتة",
+        "MySQL + PostgreSQL",
         "بكالوريوس هندسة النظم (قيد الدراسة)"
       ],
       "list": [
-        "تطبيقات LLM مع الاسترجاع واستخدام الأدوات",
-        "أتمتة باستخدام Docker وGitHub Actions",
-        "واجهات واضحة وسهلة الاستخدام لمنتجات الذكاء الاصطناعي"
+        "خدمات FastAPI وواجهات REST",
+        "نمذجة بيانات SQL وتحليلها باستخدام Pandas",
+        "نشر مؤتمت مع Docker وCI/CD"
       ],
-      "footer": "متاح لمشاريع LLM والأتمتة والواجهات."
+      "footer": "متاح لمشاريع الباك إند والبيانات وذكاء اصطناعي تطبيقي."
     },
     "info": {
       "experienceTitle": "الخبرة",
-      "experienceText": "أكثر من 3 سنوات في بناء الواجهات، وأطوّر الآن تطبيقات LLM وخطوط أتمتة.",
+      "experienceText": "أكثر من 3 سنوات في بناء المنتجات، وأركز الآن على واجهات خلفية وخطوط بيانات.",
       "educationTitle": "التعليم",
       "educationText": "بكالوريوس في هندسة النظم (قيد الدراسة)"
     },
     "paragraphs": [
-      "مطور فل ستاك يركز على تطبيقات LLM وRAG وسير عمل الوكلاء، مع حلول موثوقة وسهلة التشغيل.",
-      "أبني خطوط نشر وأتمتة باستخدام Docker وGitHub Actions وNGINX وKubernetes (Minikube)، مع أساس قوي في الواجهات."
+      "مطوّر باك إند ومحلل بيانات أركز على خدمات FastAPI ونمذجة بيانات SQL ولوحات تحليل موثوقة وسهلة التشغيل.",
+      "أبني أيضًا مكونات LLM/RAG عند الحاجة لدعم أهداف المنتج، مع أساس قوي في الواجهة وDevOps."
     ]
   },
   "experience": {
     "eyebrow": "استكشف",
     "title": "الخبرة",
+    "backend": {
+      "title": "الخلفية + قواعد البيانات",
+      "skills": [
+        {
+          "name": "FastAPI",
+          "level": "متوسط"
+        },
+        {
+          "name": "Python",
+          "level": "متوسط"
+        },
+        {
+          "name": "MySQL",
+          "level": "متوسط"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "متوسط"
+        },
+        {
+          "name": "SQL (نمذجة واستعلام)",
+          "level": "متوسط"
+        }
+      ]
+    },
+    "data": {
+      "title": "تحليل البيانات",
+      "skills": [
+        {
+          "name": "Pandas",
+          "level": "متوسط"
+        },
+        {
+          "name": "Jupyter / Notebooks",
+          "level": "متوسط"
+        },
+        {
+          "name": "تنظيف البيانات",
+          "level": "متوسط"
+        },
+        {
+          "name": "تحليل استكشافي",
+          "level": "متوسط"
+        },
+        {
+          "name": "تصور البيانات (Seaborn/Matplotlib)",
+          "level": "متوسط"
+        }
+      ]
+    },
     "llm": {
       "title": "تطبيقات LLM / AI",
       "skills": [
@@ -169,7 +228,7 @@
     "items": [
       {
         "title": "Auto-Flashcards",
-        "desc": "تحوّل ملفات PDF والفيديوهات والملاحظات إلى بطاقات مراجعة بالتكرار المتباعد مع تلخيصات وأسئلة وأجوبة بالذكاء الاصطناعي.",
+        "desc": "تحوّل ملفات PDF والفيديوهات والملاحظات إلى بطاقات مراجعة بالتكرار المتباعد مع تلخيص وأسئلة وأجوبة بالذكاء الاصطناعي.",
         "image": "project-1.png",
         "alt": "معاينة Auto-Flashcards",
         "badges": [
@@ -182,6 +241,20 @@
           "Docker",
           "AI"
         ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "مسار إدخال محتوى وتحويله إلى بطاقات من PDFs وفيديوهات وملاحظات."
+          },
+          {
+            "label": "التقنيات",
+            "text": "Python، JavaScript، Docker، واجهات LLM."
+          },
+          {
+            "label": "النتيجة",
+            "text": "إنتاج بطاقات جاهزة للمراجعة بالتكرار المتباعد."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
@@ -190,6 +263,78 @@
           {
             "label": "عرض حي",
             "url": "https://auto-flashcards-sigma.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "محلل مستندات دعم الذكاء الاصطناعي",
+        "desc": "خط معالجة يجمع مستندات الدعم وينظف HTML وPDF ويخرج بيانات منظمة للبحث وRAG.",
+        "image": "support-parser-preview.png",
+        "alt": "معاينة محلل مستندات دعم الذكاء الاصطناعي",
+        "badges": [
+          "أتمتة",
+          "أداة بيانات"
+        ],
+        "tags": [
+          "Python",
+          "Web Scraping",
+          "PDF",
+          "Data Prep"
+        ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "زاحف ومحلل يوحّد مستندات الدعم من HTML وPDF."
+          },
+          {
+            "label": "التقنيات",
+            "text": "Python، Web Scraping، معالجة PDF/HTML."
+          },
+          {
+            "label": "النتيجة",
+            "text": "مجموعات بيانات جاهزة لـ RAG والبحث."
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
+          }
+        ]
+      },
+      {
+        "title": "رؤى سوق Airbnb",
+        "desc": "تحليل استكشافي مع لوحة تعرض اتجاهات الأسعار والتوفر.",
+        "image": "airbnb-project.png",
+        "alt": "لوحة رؤى سوق Airbnb",
+        "badges": [
+          "تحليلات",
+          "لوحة بيانات"
+        ],
+        "tags": [
+          "Python",
+          "Pandas",
+          "Seaborn",
+          "Jupyter"
+        ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "تحليل استكشافي ولوحة لأسعار وتوفر المساكن."
+          },
+          {
+            "label": "التقنيات",
+            "text": "Python، Pandas، Seaborn، Jupyter."
+          },
+          {
+            "label": "النتيجة",
+            "text": "إبراز أنماط موسمية وفروق الأحياء."
+          }
+        ],
+        "links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
           }
         ]
       },
@@ -208,6 +353,20 @@
           "UI",
           "Dashboards"
         ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "لوحة مهام متعددة الأدوار مع تتبع وإدارة."
+          },
+          {
+            "label": "التقنيات",
+            "text": "HTML، JavaScript، لوحات UI."
+          },
+          {
+            "label": "النتيجة",
+            "text": "تنظيم التسليمات ورؤية حالة الواجبات."
+          }
+        ],
         "links": [
           {
             "label": "GitHub",
@@ -216,28 +375,6 @@
           {
             "label": "عرض حي",
             "url": "https://wajebak.netlify.app/"
-          }
-        ]
-      },
-      {
-        "title": "رؤى سوق Airbnb",
-        "desc": "تحليل استكشافي مع لوحة تعرض اتجاهات الأسعار والتوافر.",
-        "image": "airbnb-project.png",
-        "alt": "لوحة رؤى سوق Airbnb",
-        "badges": [
-          "تحليلات",
-          "لوحة بيانات"
-        ],
-        "tags": [
-          "Python",
-          "Pandas",
-          "Seaborn",
-          "Jupyter"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/airbnb-data-analysis"
           }
         ]
       },
@@ -255,6 +392,20 @@
           "HTML",
           "CSS",
           "JavaScript"
+        ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "موقع حجز خدمات مع معرض ولوحة إدارة."
+          },
+          {
+            "label": "التقنيات",
+            "text": "Django، HTML، CSS، JavaScript."
+          },
+          {
+            "label": "النتيجة",
+            "text": "تجربة حجز إلكترونية بواجهة متجاوبة."
+          }
         ],
         "links": [
           {
@@ -282,32 +433,24 @@
           "Prototyping",
           "Design System"
         ],
+        "highlights": [
+          {
+            "label": "ما الذي بنيته",
+            "text": "نظام تصميم ونموذج تفاعلي لتدفقات السوق."
+          },
+          {
+            "label": "التقنيات",
+            "text": "Figma، تصميم UI، النمذجة."
+          },
+          {
+            "label": "النتيجة",
+            "text": "مكونات قابلة لإعادة الاستخدام وأنماط تفاعل واضحة."
+          }
+        ],
         "links": [
           {
             "label": "عرض في Figma",
             "url": "https://www.figma.com/design/fAOBD3LuN2u6c1N9u0Fqd2/Untitled?node-id=0-1&t=Ln63Gegfo1Ol3pk0-1"
-          }
-        ]
-      },
-      {
-        "title": "محلل مستندات دعم الذكاء الاصطناعي",
-        "desc": "خط معالجة يجمع مستندات الدعم وينظف HTML وPDF ويخرج بيانات جاهزة لـ RAG.",
-        "image": "support-parser-preview.png",
-        "alt": "معاينة محلل مستندات دعم الذكاء الاصطناعي",
-        "badges": [
-          "أتمتة",
-          "أداة بيانات"
-        ],
-        "tags": [
-          "Python",
-          "Web Scraping",
-          "PDF",
-          "Data Prep"
-        ],
-        "links": [
-          {
-            "label": "GitHub",
-            "url": "https://github.com/ALBADWIMAJID/support-ai-docs-parser"
           }
         ]
       }
